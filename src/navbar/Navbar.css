@@ -1,0 +1,100 @@
+.navbar {
+  display: flex;
+}
+
+.lists {
+  list-style: none;
+}
+
+.left-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.left-logo > a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.home {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 20px;
+  bottom: 20px;
+  left: 300px;
+}
+
+.home > a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.home > a:hover {
+}
+
+.About {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 20px;
+  bottom: 20px;
+  left: 450px;
+}
+
+.About > a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.experience {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 20px;
+  bottom: 20px;
+  left: 570px;
+}
+
+.experience > a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.portfolio {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 20px;
+  bottom: 20px;
+  left: 740px;
+}
+
+.portfolio > a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contact {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 20px;
+  bottom: 20px;
+  left: 890px;
+}
+
+.contact > a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 18px;
+}
